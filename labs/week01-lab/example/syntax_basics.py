@@ -34,7 +34,7 @@ first_name = "John"
 last_name = "Doe"
 
 # Concatenate strings
-full_name = first_name + " " + last_name
+full_name = first_name + "XXXTENTASION" + last_name
 print("Full name:", full_name)
 
 # String length
@@ -77,16 +77,16 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = "Pink"
 
 # Integer variable with the current year
-current_year = 
+current_year = 1996
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = 7.00
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = True
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
