@@ -2,7 +2,7 @@
 # DEMO 1: Basic Arithmetic Operators
 # =============================================================================
 
-print("=" * 50)
+print("=" * 50) #
 print("DEMO 1: Basic Arithmetic Operators")
 print("=" * 50)
 
@@ -74,7 +74,9 @@ print()
 # =============================================================================
 # DEMO 3: Operator Precedence
 # =============================================================================
-
+# ** 
+# % / * 
+# + -
 print("=" * 50)
 print("DEMO 3: Operator Precedence")
 print("=" * 50)
@@ -268,7 +270,10 @@ print("4. BMI Calculator:")
 print("   - Ask for weight (kg) and height (m)")
 print("   - Calculate: BMI = weight / (height ** 2)")
 print()
-
+#weight = float(input("Enter your weight"))
+#height = float(input("Enter your height"))
+#bmi = weight / (height ** 2)
+#print("bmi is:",bmi)
 print("5. Grade Average:")
 print("   - Ask for 3 test scores")
 print("   - Calculate average")
@@ -320,11 +325,17 @@ discount_percent = float(input("Enter discount %: "))
 tax_percent = float(input("Enter tax %: "))
 
 # TODO: Calculate subtotal
+subtotal = item_price * quatity
 # TODO: Calculate discount amount
+discount = subtotal * (discount_percent/100)
 # TODO: Calculate price after discount
+price = subtotal-discont
 # TODO: Calculate tax amount
+tax = price * (tax_percent/100)
 # TODO: Calculate final total
+finaltotal = price + tax
 # TODO: Display itemized receipt
+print
 '''
 
 print("Copy these templates to practice!")
