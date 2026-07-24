@@ -8,7 +8,7 @@
 
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
-
+print(range(5))
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
