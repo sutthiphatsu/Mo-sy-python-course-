@@ -1,0 +1,14 @@
+name = "python"
+for letter in name :
+    print(f"ตัวอักษร:{letter}")
+
+furits = ["appple","banana","orage"]
+
+print ("นับจาก 1 ถึง 5 ด้วย while:")
+count = 1
+whlie count <=5:
+    print(f"รอบที่:{count}")
+    count +=1
+
+for i in range(5):
+    print(f"รอบที่:{i}")
