@@ -1,0 +1,4 @@
+Name = input("your name on it:")
+Name1 = Name.lower()
+Count = sum(Name1.count(b) for b in "aeiou")
+print(f"{Count}")
