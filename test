@@ -1,8 +1,6 @@
-n = 0
-for i in range (1,10,2):
-    print(i)
-    n+=1
-print (n)
-
-
-    
+def create_user_profile(username, age=18, premium=False):
+    # Your Problem 3 solution
+    user_type = "Premium User" if premium else "Standard User"
+    return f"{username} (age: {age}) - {user_type}"
+result = create_user_profile("rex", 27, False)
+print(result)
