@@ -1,40 +1,24 @@
-#รับค่า text จากผู้ใช้
-# รับค่าอักขระที่ต้องการค้นหาจากผู้ใช้
-# แสดงผล จำนวนของตัวขระในข้อความ text
-# ตัวอย่างหน้าจอ insert your text 
-# character to find 
-# 5 letters `a` found in `name`
+bucket = [
+    [1, 50, 2.50],
+    [51, 100, 3.00],
+    [101, 200, 3.50],
+    [200, None, 4.00]
+]
 
-count = 0
-text = input("insert your text:")
-text_find = input(f"character to find find in {text}:")
-for letter in text:
-    if letter == text_find:
-        count += 1
-print(f"{count} letters {text_find} found in {text}")
+x = 220
+real_total = 0
 
-
-pw = input("password:")
-lenght_check = True
-a_at_check = True
-alpha_check = True
-digit_check = True
-
-if lenght_check:
-    if len(pw) < 8:
-        print("Too weak: password must be at least 8 characters")
-        
-
-if a_at_check:
-    if "@" not in pw:
-        print("Include '@' in the password")
-        
-
-if alpha_check:
-    if not any(c.isalpha() for c in pw):
-        print("Include at least one letter")
-        
-
-if digit_check:
-    if not any(c.isdigit() for c in pw):
-        print("Include at least one digit")
+for first,end,price in bucket:
+    if x <= 0:
+        break
+    if end is None:
+        final=x
+        total+= final * price
+        print(f"{final}{price}")
+        break
+    final=min(x,end-first+1)
+    total=final*price
+    real_total+=total
+    x-=final
+    print(f"{final}{price}")
+print(f"{total}")
