@@ -14,7 +14,7 @@ print("My name is Your Name")
 # Write your code here:
 print("Mo'sy")
 print(15)
-print("jeking")
+print("po")
 
 # Exercise 4: Print with Different Content
 # Use print() to display the following (one per line):
@@ -34,7 +34,7 @@ print("Third", "line", "with", "multiple", "arguments")
 
 # Exercise 6: Comments Practice
 # Add comments above each print statement explaining what it does
-# มึงมันโง่
+# 
 # 
 print("Welcome to Python programming!")
 

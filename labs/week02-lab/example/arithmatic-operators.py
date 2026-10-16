@@ -2,7 +2,11 @@
 # DEMO 1: Basic Arithmetic Operators
 # =============================================================================
 
+<<<<<<< HEAD
 print("=" * 50) #
+=======
+print("=" * 50)
+>>>>>>> upstream/main
 print("DEMO 1: Basic Arithmetic Operators")
 print("=" * 50)
 
@@ -273,11 +277,7 @@ print()
 #weight = float(input("Enter your weight"))
 #height = float(input("Enter your height"))
 #bmi = weight / (height ** 2)
-#print("bmi is:",bmi)
 print("5. Grade Average:")
-print("   - Ask for 3 test scores")
-print("   - Calculate average")
-print("   - Show how many points needed for next letter grade")
 
 # =============================================================================
 # STARTER CODE TEMPLATES

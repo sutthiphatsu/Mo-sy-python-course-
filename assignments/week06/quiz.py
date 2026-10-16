@@ -39,6 +39,7 @@ def create_user_profile(username, age=18, premium=False):
     return f"{username} (age: {age}) - {user_type}"
 result = create_user_profile("rex", 27, False)
 print(result)
+    pass
 
 """ เขียน function ชื่อ analyze_scores ที่มีคุณสมบัติดังนี้:
 
